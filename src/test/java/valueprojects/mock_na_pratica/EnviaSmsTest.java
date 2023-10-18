@@ -1,6 +1,5 @@
 package valueprojects.mock_na_pratica;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -8,8 +7,6 @@ import static org.mockito.Mockito.verify;
 import java.util.Calendar;
 
 import org.junit.Test;
-import org.mockito.verification.VerificationMode;
-
 import br.com.value.jogo.builder.CriadorDeJogo;
 import service.EnviaSms;
 import service.FinalizaJogo;
@@ -19,7 +16,6 @@ import dominio.Participante;
 import dominio.Resultado;
 import dominio.Sms;
 import infra.JogoDao;
-import infra.JogoDaoFalso;
 import infra.VencedorDaoFalso;
 
 public class EnviaSmsTest {
